@@ -1,0 +1,27 @@
+# Vault et préférences utilisateur (données personnelles, jamais committées)
+*.vault
+*.prefs
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+
+# Tests et coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
